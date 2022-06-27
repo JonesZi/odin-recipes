@@ -1,0 +1,58 @@
+* {
+    background-color: hsl(0, 0%, 97%);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.spotlight {
+    width: 50%;
+    max-width: 350px;
+    height: auto;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.description {
+    border-style: solid;
+    border-color: aqua;
+    background-color: hsl(0, 0%, 54%);
+    color: white;
+}
+.content {
+    list-style-type: none;
+}
+.content li a {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.content li {
+    margin: 30px;
+}
